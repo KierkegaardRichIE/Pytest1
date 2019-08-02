@@ -1,5 +1,8 @@
 users = ['Admin', 'Kierke', 'Ronaldo', 'vini bear', 'Ada', 'Trump']
-users.sort()
+if users:
+    print('All users here!')
+else:
+    print('We need to get some users!')
 for user in users:
     if user == 'Admin':
         print('Hello, ' + user + ' would you like to see a status report?')
