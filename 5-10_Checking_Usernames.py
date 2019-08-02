@@ -12,17 +12,7 @@ for number in numbers_list:
         print('1st')
     elif number == 2:
         print('2nd')
-    elif number == 2:
+    elif number == 3:
         print('3rd')
-    elif number == 4:
-        print('4th')
-    elif number == 5:
-        print('5th')
-    elif number == 6:
-        print('6th')
-    elif number == 7:
-        print('7th')
-    elif number == 8:
-        print('8th')
-    elif number == 9:
-        print('9th')
+    else:
+        print(str(number)+'th')
