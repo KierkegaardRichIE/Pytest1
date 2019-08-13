@@ -15,4 +15,4 @@ for number in numbers_list:
     elif number == 3:
         print('3rd')
     else:
-        print(str(number)+'th')
+        print(str(number) + 'th')
